@@ -2,3 +2,19 @@ td, th {
 	border: 1px solid;
   }
   
+h1 {
+	color: #FF00FF;
+}
+
+th {
+	background-color: #FFC0CB;
+	font-size: 55px;
+}
+
+tr { 
+	background-color: #DB7093; 
+	background-image: url("images/planets.gif");
+}
+
+
+
