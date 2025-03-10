@@ -32,7 +32,7 @@ td:nth-child(3) {
 
 td:nth-child(4) {
 	font-family: cursive;
-	background-image: url("..images/planets.gif");
+	background-color: lightyellow;
 }
 td:nth-child(5) {
 	font-family: fantasy;
@@ -48,8 +48,7 @@ td:nth-child(even) {
 table {
 	margin-left: auto;
 	margin-right: auto;
-    border: 100px;
-	background-image: url("..images/planets.gif");
+	border-image: url("..images/border.png");
 }
 
 
