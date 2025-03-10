@@ -1,10 +1,5 @@
 td, th {
 	border: 1px solid;
-	background-image: url("..images/planets.gif");
-}
-
-tr {
-	background-image: url("..images/planets.gif");
 }
 
 h1 { 
@@ -14,6 +9,13 @@ h1 {
 	font-size: 3rem;
 	font-weight: 300;
 	background-color: lightyellow;
+}
+
+th {
+  border: 5px solid lightgreen;
+  font-size: 13px; 
+  color: black;
+  background-image: url("../images/stars.gif");
 }
 
 td:nth-child(odd){
@@ -32,7 +34,8 @@ table {
 	margin-left: auto;
 	margin-right: auto;
 	border: 100px solid transparent;
-	border-image: url("../images/border.png");
+	border-image: url("../images/planets.gif");
+  background-color: darkgreen;
 }
 
 
