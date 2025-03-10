@@ -54,7 +54,7 @@ td:nth-child(even) {
 td:first-child {
   background-image: url("../images/stars.gif");
   background-size: cover;
-  background-postion: center;
+  background-position: center;
   font-weight: bold;
 }
 
