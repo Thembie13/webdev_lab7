@@ -16,40 +16,23 @@ h1 {
 	background-color: lightyellow;
 }
 
-td:nth-child(1) {
-	font-family: fantasy;
-	background-color: lightgreen;
+td:nth-child(odd){
+  font-family: fantasy;
+  background-color: lightgreen;
+  transform: rotate(5deg);
 }
 
-td:nth-child(2) {
-	font-family: cursive;
-	background-color: lightyellow;
-}
-td:nth-child(3) {
-	font-family: fantasy;
-	background-color: lightgreen;
-}
-
-td:nth-child(4) {
-	font-family: cursive;
-	background-color: lightyellow;
-}
-td:nth-child(5) {
-	font-family: fantasy;
-	background-color: lightgreen;
-}
-td:nth-child(odd) {
-	transform: rotate(5deg);
-}
 td:nth-child(even) {
-	transfrom: rotate(5deg);
+  font-family: cursive;
+  background-color: lightyellow;
+  transform: rotate(5deg);
 }
 
 table {
 	margin-left: auto;
 	margin-right: auto;
-	border: 10px solid transparent;
-	border-image: url("..images/border.png");
+	border: 100px solid transparent;
+	border-image: url("../images/border.png");
 }
 
 
